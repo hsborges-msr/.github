@@ -27,6 +27,9 @@
   TypeScript library, an HTTP API and a bulk CLI over OpenStreetMap Nominatim, Photon and LocationIQ.
 - [**libpostal-rest-docker**](https://github.com/hsborges-msr/libpostal-rest-docker): libpostal address
   parsing as a REST service in a Docker container.
+- [**github-country-classifier**](https://github.com/hsborges-msr/github-country-classifier): infers a GitHub
+  user's country from their public profile, offline in Node or the browser, with a compact fine-tuned
+  multilingual model. [Live demo](https://hsborges-msr.github.io/github-country-classifier/).
 
 ### Archived
 
