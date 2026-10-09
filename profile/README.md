@@ -6,41 +6,40 @@
 </p>
 
 <p align="center">
-  Tools, datasets and studies for <b>mining software repositories</b>:<br>
-  GitHub, GitLab, package registries, Q&amp;A sites and beyond.
+  Tools and datasets for <b>mining software repositories</b>.
 </p>
 
-## What's here
+## Projects
 
 ### Data collection
 
-- [**github-proxy-server**](https://github.com/hsborges-msr/github-proxy-server): proxy for massive data
-  collection from the GitHub REST and GraphQL APIs, managing access tokens and requests to stay within the
-  API limits.
-- [**github-token-donation**](https://github.com/hsborges-msr/github-token-donation): web app where trusted
-  people donate GitHub tokens to support our data collection.
+- [**github-proxy-server**](https://github.com/hsborges-msr/github-proxy-server): a proxy for collecting
+  large amounts of data from the GitHub REST and GraphQL APIs. It rotates tokens so you stay under the rate
+  limits.
+- [**github-token-donation**](https://github.com/hsborges-msr/github-token-donation): a small web app where
+  people can donate GitHub tokens for our research.
 
 ### Enrichment
 
-- [**geocoder**](https://github.com/hsborges-msr/geocoder): turns free-form location text, such as what
-  developers write on their GitHub profiles, into structured places (city, state, country). Ships as a
-  TypeScript library, an HTTP API and a bulk CLI over OpenStreetMap Nominatim, Photon and LocationIQ.
+- [**geocoder**](https://github.com/hsborges-msr/geocoder): converts location text, like what people write
+  on their GitHub profiles, into city, state and country. Available as a TypeScript library, an HTTP API and
+  a CLI.
 - [**libpostal-rest-docker**](https://github.com/hsborges-msr/libpostal-rest-docker): libpostal address
-  parsing as a REST service in a Docker container.
-- [**github-country-classifier**](https://github.com/hsborges-msr/github-country-classifier): infers a GitHub
-  user's country from their public profile, offline in Node or the browser, with a compact fine-tuned
-  multilingual model. [Live demo](https://hsborges-msr.github.io/github-country-classifier/).
+  parsing as a REST service in Docker.
+- [**github-country-classifier**](https://github.com/hsborges-msr/github-country-classifier): guesses a
+  GitHub user's country from their public profile. Runs offline in Node or the browser.
+  [Demo](https://hsborges-msr.github.io/github-country-classifier/).
 
 ### Archived
 
-- [**repo-insights**](https://github.com/hsborges-msr/repo-insights): web app for visualizing repository
-  insights and trends. No longer maintained.
+- [**repo-insights**](https://github.com/hsborges-msr/repo-insights): a web app for exploring repository
+  trends. No longer maintained.
 
 ## Donate a token
 
-Large-scale studies quickly hit GitHub's per-token rate limits. If you trust this work, you can donate a token
-through [github-token-donation](https://github.com/hsborges-msr/github-token-donation): you authorize a GitHub
-OAuth App, see exactly which scopes it requests, and can revoke it at any time in your GitHub settings.
+Big studies run into GitHub's rate limits fast. If you'd like to help, you can donate a token through
+[github-token-donation](https://github.com/hsborges-msr/github-token-donation). You can see the requested
+scopes before authorizing, and revoke access anytime in your GitHub settings.
 
 ## Contact
 
